@@ -11,6 +11,7 @@ _extras_require = {
     "strategies": ["hypothesis >= 5.41.1"],
     "hypotheses": ["scipy"],
     "io": ["pyyaml >= 5.1", "black", "frictionless"],
+    "mypy": ["pandas-stubs"],
 }
 extras_require = {
     **_extras_require,
